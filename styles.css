@@ -1,0 +1,23 @@
+body {
+  background-color: #ffd082;
+  text-decoration-color: #21243d
+}
+
+
+h1.mainTitle {
+  font-family: 'Rock Salt', sans-serif, cursive;
+  font-size: 4rem;
+  text-align: center;
+}
+
+
+h1.mainTitle:hover span {
+  display: none;
+}
+
+h1.mainTitle:hover::before {
+  font-family: 'Niconne', sans-serif, cursive;
+  content: 'Hi, my name is Toras!';
+  font-size: 8rem;
+  font-weight: 400;
+}
